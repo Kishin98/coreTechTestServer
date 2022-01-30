@@ -1,0 +1,15 @@
+CREATE TABLE candidates(
+    id INT(11) NOT NULL auto_increment,
+    firstName VARCHAR(255) NOT NULL,
+    lastName VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    phone VARCHAR(15) NOT NULL,
+    age INT NOT NULL,
+    education VARCHAR(32) NOT NULL,
+    jobClass VARCHAR(32) NOT NULL,
+    jobLocation VARCHAR(32) NOT NULL,
+    jobDetail VARCHAR(32) NOT NULL,
+    curriculum VARCHAR(255) NOT NULL,
+    createdAt DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ,
+    PRIMARY KEY (id)
+);
