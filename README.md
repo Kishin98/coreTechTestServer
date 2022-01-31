@@ -10,3 +10,4 @@ Basterà esegire (avendo node js installato sula macchina)
 node server.js
 ```
 Nella cartella src c'è il file db.js che contiene i dati di condigurazione di mysql, bisogna sostituirli a quelli della propria configurazione.
+Il file tablesModel.txt contiene la query Sql per creare la tabella utilizzata dal server
